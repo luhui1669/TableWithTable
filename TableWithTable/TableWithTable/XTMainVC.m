@@ -65,8 +65,14 @@
 -(void)pushToDemo1{
 /*===========================对Demo1的ViewController的设置==============================*/
     XTFirstVC *vc = [[XTFirstVC alloc] init];
+    //leftDataArray为正常数组即可
     vc.leftDataArray = self.Demo1LeftDataArray;
+    //rightDataArray是元素为数组的数组
     vc.rightDataArray = self.Demo1RightDataArray;
+    
+    //可对左右两个tableView的frame进行设置，默认值为：leftView宽度为屏幕的1/3，rightView宽度为屏幕的2/3，高度都为全屏
+    //vc.leftFrame = CGRectMake(0, 0, 100, 300);
+    //vc.rightFrame = CGRectMake(120, 0, 100, 250);
     
     [self.navigationController pushViewController:vc animated:YES];
 }
