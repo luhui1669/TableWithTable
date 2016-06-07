@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "XTMainVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    XTMainVC *VC = [[XTMainVC alloc] init];
+    
+    UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:VC];
+    
+    self.window.rootViewController = navC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

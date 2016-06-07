@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		4324331F1D0655B200C33FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4324331E1D0655B200C33FB2 /* main.m */; };
 		432433221D0655B200C33FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 432433211D0655B200C33FB2 /* AppDelegate.m */; };
-		432433251D0655B200C33FB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432433241D0655B200C33FB2 /* ViewController.m */; };
 		432433281D0655B200C33FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432433261D0655B200C33FB2 /* Main.storyboard */; };
 		4324332A1D0655B200C33FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432433291D0655B200C33FB2 /* Assets.xcassets */; };
 		4324332D1D0655B200C33FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4324332B1D0655B200C33FB2 /* LaunchScreen.storyboard */; };
+		4324333E1D0673B900C33FB2 /* XTFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4324333D1D0673B900C33FB2 /* XTFirstVC.m */; };
+		432433411D068C8400C33FB2 /* XTFirstTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432433401D068C8400C33FB2 /* XTFirstTableView.m */; };
+		4324339D1D07179500C33FB2 /* XTMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4324339C1D07179500C33FB2 /* XTMainVC.m */; };
+		4324339F1D071B6500C33FB2 /* CommonSymptoms.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4324339E1D071B6500C33FB2 /* CommonSymptoms.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		4324331E1D0655B200C33FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		432433201D0655B200C33FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		432433211D0655B200C33FB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		432433231D0655B200C33FB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		432433241D0655B200C33FB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		432433271D0655B200C33FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		432433291D0655B200C33FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4324332C1D0655B200C33FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4324332E1D0655B200C33FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4324333C1D0673B900C33FB2 /* XTFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFirstVC.h; sourceTree = "<group>"; };
+		4324333D1D0673B900C33FB2 /* XTFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFirstVC.m; sourceTree = "<group>"; };
+		4324333F1D068C8400C33FB2 /* XTFirstTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFirstTableView.h; sourceTree = "<group>"; };
+		432433401D068C8400C33FB2 /* XTFirstTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFirstTableView.m; sourceTree = "<group>"; };
+		432433511D06AE0500C33FB2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4324339B1D07179500C33FB2 /* XTMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTMainVC.h; sourceTree = "<group>"; };
+		4324339C1D07179500C33FB2 /* XTMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTMainVC.m; sourceTree = "<group>"; };
+		4324339E1D071B6500C33FB2 /* CommonSymptoms.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CommonSymptoms.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +67,12 @@
 		4324331C1D0655B200C33FB2 /* TableWithTable */ = {
 			isa = PBXGroup;
 			children = (
+				432433341D0671AF00C33FB2 /* Demo1 */,
+				432433381D0671AF00C33FB2 /* Demo2 */,
+				4324339B1D07179500C33FB2 /* XTMainVC.h */,
+				4324339C1D07179500C33FB2 /* XTMainVC.m */,
 				432433201D0655B200C33FB2 /* AppDelegate.h */,
 				432433211D0655B200C33FB2 /* AppDelegate.m */,
-				432433231D0655B200C33FB2 /* ViewController.h */,
-				432433241D0655B200C33FB2 /* ViewController.m */,
 				432433261D0655B200C33FB2 /* Main.storyboard */,
 				432433291D0655B200C33FB2 /* Assets.xcassets */,
 				4324332B1D0655B200C33FB2 /* LaunchScreen.storyboard */,
@@ -74,9 +85,77 @@
 		4324331D1D0655B200C33FB2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4324339E1D071B6500C33FB2 /* CommonSymptoms.plist */,
 				4324331E1D0655B200C33FB2 /* main.m */,
+				432433511D06AE0500C33FB2 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		432433341D0671AF00C33FB2 /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				432433351D0671AF00C33FB2 /* Controller */,
+				432433361D0671AF00C33FB2 /* Model */,
+				432433371D0671AF00C33FB2 /* View */,
+			);
+			path = Demo1;
+			sourceTree = "<group>";
+		};
+		432433351D0671AF00C33FB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4324333C1D0673B900C33FB2 /* XTFirstVC.h */,
+				4324333D1D0673B900C33FB2 /* XTFirstVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		432433361D0671AF00C33FB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		432433371D0671AF00C33FB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4324333F1D068C8400C33FB2 /* XTFirstTableView.h */,
+				432433401D068C8400C33FB2 /* XTFirstTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		432433381D0671AF00C33FB2 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				432433391D0671AF00C33FB2 /* Controller */,
+				4324333A1D0671AF00C33FB2 /* Model */,
+				4324333B1D0671AF00C33FB2 /* View */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		432433391D0671AF00C33FB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4324333A1D0671AF00C33FB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4324333B1D0671AF00C33FB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +184,7 @@
 		432433121D0655B200C33FB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XT;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = XTShow;
 				TargetAttributes = {
@@ -139,6 +219,7 @@
 				4324332D1D0655B200C33FB2 /* LaunchScreen.storyboard in Resources */,
 				4324332A1D0655B200C33FB2 /* Assets.xcassets in Resources */,
 				432433281D0655B200C33FB2 /* Main.storyboard in Resources */,
+				4324339F1D071B6500C33FB2 /* CommonSymptoms.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432433251D0655B200C33FB2 /* ViewController.m in Sources */,
 				432433221D0655B200C33FB2 /* AppDelegate.m in Sources */,
 				4324331F1D0655B200C33FB2 /* main.m in Sources */,
+				432433411D068C8400C33FB2 /* XTFirstTableView.m in Sources */,
+				4324333E1D0673B900C33FB2 /* XTFirstVC.m in Sources */,
+				4324339D1D07179500C33FB2 /* XTMainVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +346,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TableWithTable/PrefixHeader.pch";
 				INFOPLIST_FILE = TableWithTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XTShow.TableWithTable;
@@ -274,6 +359,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TableWithTable/PrefixHeader.pch";
 				INFOPLIST_FILE = TableWithTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XTShow.TableWithTable;
@@ -300,6 +387,7 @@
 				432433331D0655B200C33FB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XTMainVC.h
 //  TableWithTable
 //
 //  Created by 肖霆 on 16/6/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XTMainVC : UIViewController
 
 @end
-
