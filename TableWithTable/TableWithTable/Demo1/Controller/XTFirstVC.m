@@ -35,18 +35,15 @@
 
 -(void)setupUI{
     
-    CGFloat width = kScreenWidth;
-    CGFloat height = kScreenHeight - kNavBarHeight - kStatusBarHeight;
-
     //给左右两个tableView设置Frame(默认情况下：leftView宽度为屏幕的1/3，rightView宽度为屏幕的2/3，高度都为全屏)
     if (CGRectIsEmpty(self.leftFrame)) {
-        self.leftView.frame = CGRectMake(0, 0, width/3, height);
+        self.leftView.frame = CGRectMake(0, 0, kScreenWidth/3, kTableViewMaxH);
     }else{
         self.leftView.frame = self.leftFrame;
     }
     
     if (CGRectIsEmpty(self.rightFrame)) {
-        self.rightView.frame = CGRectMake(width/3, 0, width/3 * 2, height);
+        self.rightView.frame = CGRectMake(kScreenWidth/3, 0, kScreenWidth/3 * 2, kTableViewMaxH);
     }else{
         self.rightView.frame = self.rightFrame;
     }

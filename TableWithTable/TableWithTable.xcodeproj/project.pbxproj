@@ -16,6 +16,9 @@
 		432433411D068C8400C33FB2 /* XTFirstTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432433401D068C8400C33FB2 /* XTFirstTableView.m */; };
 		4324339D1D07179500C33FB2 /* XTMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4324339C1D07179500C33FB2 /* XTMainVC.m */; };
 		4324339F1D071B6500C33FB2 /* CommonSymptoms.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4324339E1D071B6500C33FB2 /* CommonSymptoms.plist */; };
+		433EB8FE1D07A53400A58F8B /* XTSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 433EB8FD1D07A53400A58F8B /* XTSecondVC.m */; };
+		433EB9071D07A5E100A58F8B /* XTSecondLeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 433EB9061D07A5E100A58F8B /* XTSecondLeftTableView.m */; };
+		433EB90A1D07A5FF00A58F8B /* XTSecondRightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 433EB9091D07A5FF00A58F8B /* XTSecondRightTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,12 @@
 		4324339B1D07179500C33FB2 /* XTMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTMainVC.h; sourceTree = "<group>"; };
 		4324339C1D07179500C33FB2 /* XTMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTMainVC.m; sourceTree = "<group>"; };
 		4324339E1D071B6500C33FB2 /* CommonSymptoms.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CommonSymptoms.plist; sourceTree = "<group>"; };
+		433EB8FC1D07A53400A58F8B /* XTSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSecondVC.h; sourceTree = "<group>"; };
+		433EB8FD1D07A53400A58F8B /* XTSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSecondVC.m; sourceTree = "<group>"; };
+		433EB9051D07A5E100A58F8B /* XTSecondLeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSecondLeftTableView.h; sourceTree = "<group>"; };
+		433EB9061D07A5E100A58F8B /* XTSecondLeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSecondLeftTableView.m; sourceTree = "<group>"; };
+		433EB9081D07A5FF00A58F8B /* XTSecondRightTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSecondRightTableView.h; sourceTree = "<group>"; };
+		433EB9091D07A5FF00A58F8B /* XTSecondRightTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSecondRightTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +149,8 @@
 		432433391D0671AF00C33FB2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				433EB8FC1D07A53400A58F8B /* XTSecondVC.h */,
+				433EB8FD1D07A53400A58F8B /* XTSecondVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,6 +165,10 @@
 		4324333B1D0671AF00C33FB2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				433EB9051D07A5E100A58F8B /* XTSecondLeftTableView.h */,
+				433EB9061D07A5E100A58F8B /* XTSecondLeftTableView.m */,
+				433EB9081D07A5FF00A58F8B /* XTSecondRightTableView.h */,
+				433EB9091D07A5FF00A58F8B /* XTSecondRightTableView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -232,7 +247,10 @@
 			files = (
 				432433221D0655B200C33FB2 /* AppDelegate.m in Sources */,
 				4324331F1D0655B200C33FB2 /* main.m in Sources */,
+				433EB8FE1D07A53400A58F8B /* XTSecondVC.m in Sources */,
 				432433411D068C8400C33FB2 /* XTFirstTableView.m in Sources */,
+				433EB90A1D07A5FF00A58F8B /* XTSecondRightTableView.m in Sources */,
+				433EB9071D07A5E100A58F8B /* XTSecondLeftTableView.m in Sources */,
 				4324333E1D0673B900C33FB2 /* XTFirstVC.m in Sources */,
 				4324339D1D07179500C33FB2 /* XTMainVC.m in Sources */,
 			);
