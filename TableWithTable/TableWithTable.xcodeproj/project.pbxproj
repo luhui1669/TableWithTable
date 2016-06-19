@@ -15,10 +15,17 @@
 		4324333E1D0673B900C33FB2 /* XTFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4324333D1D0673B900C33FB2 /* XTFirstVC.m */; };
 		432433411D068C8400C33FB2 /* XTFirstTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432433401D068C8400C33FB2 /* XTFirstTableView.m */; };
 		4324339D1D07179500C33FB2 /* XTMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4324339C1D07179500C33FB2 /* XTMainVC.m */; };
-		4324339F1D071B6500C33FB2 /* CommonSymptoms.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4324339E1D071B6500C33FB2 /* CommonSymptoms.plist */; };
+		432FED671D164B0900CB66ED /* XTRightViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432FED661D164B0900CB66ED /* XTRightViewItem.xib */; };
+		432FED6A1D164E0E00CB66ED /* XTRightViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 432FED691D164E0E00CB66ED /* XTRightViewItem.m */; };
+		432FED6E1D166F2300CB66ED /* CommonSymptoms.plist in Resources */ = {isa = PBXBuildFile; fileRef = 432FED6D1D166F2300CB66ED /* CommonSymptoms.plist */; };
+		432FED701D169B3A00CB66ED /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 432FED6F1D169B3A00CB66ED /* 1.jpg */; };
+		432FED741D169C9D00CB66ED /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 432FED731D169C9D00CB66ED /* 2.jpg */; };
 		433EB8FE1D07A53400A58F8B /* XTSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 433EB8FD1D07A53400A58F8B /* XTSecondVC.m */; };
 		433EB9071D07A5E100A58F8B /* XTSecondLeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 433EB9061D07A5E100A58F8B /* XTSecondLeftTableView.m */; };
 		433EB90A1D07A5FF00A58F8B /* XTSecondRightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 433EB9091D07A5FF00A58F8B /* XTSecondRightTableView.m */; };
+		43EED4B01D15288900A18303 /* XTThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EED4AF1D15288900A18303 /* XTThirdVC.m */; };
+		43EED4B31D1528DF00A18303 /* XTThirdLeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EED4B21D1528DF00A18303 /* XTThirdLeftTableView.m */; };
+		43EED4B61D15291E00A18303 /* XTThirdRightCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EED4B51D15291E00A18303 /* XTThirdRightCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,13 +44,24 @@
 		432433511D06AE0500C33FB2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4324339B1D07179500C33FB2 /* XTMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTMainVC.h; sourceTree = "<group>"; };
 		4324339C1D07179500C33FB2 /* XTMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTMainVC.m; sourceTree = "<group>"; };
-		4324339E1D071B6500C33FB2 /* CommonSymptoms.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CommonSymptoms.plist; sourceTree = "<group>"; };
+		432FED661D164B0900CB66ED /* XTRightViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTRightViewItem.xib; sourceTree = "<group>"; };
+		432FED681D164E0E00CB66ED /* XTRightViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTRightViewItem.h; sourceTree = "<group>"; };
+		432FED691D164E0E00CB66ED /* XTRightViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTRightViewItem.m; sourceTree = "<group>"; };
+		432FED6D1D166F2300CB66ED /* CommonSymptoms.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CommonSymptoms.plist; sourceTree = "<group>"; };
+		432FED6F1D169B3A00CB66ED /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		432FED731D169C9D00CB66ED /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		433EB8FC1D07A53400A58F8B /* XTSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSecondVC.h; sourceTree = "<group>"; };
 		433EB8FD1D07A53400A58F8B /* XTSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSecondVC.m; sourceTree = "<group>"; };
 		433EB9051D07A5E100A58F8B /* XTSecondLeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSecondLeftTableView.h; sourceTree = "<group>"; };
 		433EB9061D07A5E100A58F8B /* XTSecondLeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSecondLeftTableView.m; sourceTree = "<group>"; };
 		433EB9081D07A5FF00A58F8B /* XTSecondRightTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSecondRightTableView.h; sourceTree = "<group>"; };
 		433EB9091D07A5FF00A58F8B /* XTSecondRightTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSecondRightTableView.m; sourceTree = "<group>"; };
+		43EED4AE1D15288900A18303 /* XTThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTThirdVC.h; sourceTree = "<group>"; };
+		43EED4AF1D15288900A18303 /* XTThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTThirdVC.m; sourceTree = "<group>"; };
+		43EED4B11D1528DF00A18303 /* XTThirdLeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTThirdLeftTableView.h; sourceTree = "<group>"; };
+		43EED4B21D1528DF00A18303 /* XTThirdLeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTThirdLeftTableView.m; sourceTree = "<group>"; };
+		43EED4B41D15291E00A18303 /* XTThirdRightCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTThirdRightCollectionView.h; sourceTree = "<group>"; };
+		43EED4B51D15291E00A18303 /* XTThirdRightCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTThirdRightCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,7 @@
 			children = (
 				432433341D0671AF00C33FB2 /* Demo1 */,
 				432433381D0671AF00C33FB2 /* Demo2 */,
+				43EED4AA1D1527FB00A18303 /* Demo3 */,
 				4324339B1D07179500C33FB2 /* XTMainVC.h */,
 				4324339C1D07179500C33FB2 /* XTMainVC.m */,
 				432433201D0655B200C33FB2 /* AppDelegate.h */,
@@ -94,7 +113,9 @@
 		4324331D1D0655B200C33FB2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4324339E1D071B6500C33FB2 /* CommonSymptoms.plist */,
+				432FED6F1D169B3A00CB66ED /* 1.jpg */,
+				432FED731D169C9D00CB66ED /* 2.jpg */,
+				432FED6D1D166F2300CB66ED /* CommonSymptoms.plist */,
 				4324331E1D0655B200C33FB2 /* main.m */,
 				432433511D06AE0500C33FB2 /* PrefixHeader.pch */,
 			);
@@ -173,6 +194,46 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		43EED4AA1D1527FB00A18303 /* Demo3 */ = {
+			isa = PBXGroup;
+			children = (
+				43EED4AB1D1527FB00A18303 /* Controller */,
+				43EED4AC1D1527FB00A18303 /* Model */,
+				43EED4AD1D1527FB00A18303 /* View */,
+			);
+			path = Demo3;
+			sourceTree = "<group>";
+		};
+		43EED4AB1D1527FB00A18303 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				43EED4AE1D15288900A18303 /* XTThirdVC.h */,
+				43EED4AF1D15288900A18303 /* XTThirdVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		43EED4AC1D1527FB00A18303 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43EED4AD1D1527FB00A18303 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43EED4B11D1528DF00A18303 /* XTThirdLeftTableView.h */,
+				43EED4B21D1528DF00A18303 /* XTThirdLeftTableView.m */,
+				43EED4B41D15291E00A18303 /* XTThirdRightCollectionView.h */,
+				43EED4B51D15291E00A18303 /* XTThirdRightCollectionView.m */,
+				432FED661D164B0900CB66ED /* XTRightViewItem.xib */,
+				432FED681D164E0E00CB66ED /* XTRightViewItem.h */,
+				432FED691D164E0E00CB66ED /* XTRightViewItem.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,10 +292,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432FED6E1D166F2300CB66ED /* CommonSymptoms.plist in Resources */,
+				432FED671D164B0900CB66ED /* XTRightViewItem.xib in Resources */,
+				432FED741D169C9D00CB66ED /* 2.jpg in Resources */,
 				4324332D1D0655B200C33FB2 /* LaunchScreen.storyboard in Resources */,
 				4324332A1D0655B200C33FB2 /* Assets.xcassets in Resources */,
 				432433281D0655B200C33FB2 /* Main.storyboard in Resources */,
-				4324339F1D071B6500C33FB2 /* CommonSymptoms.plist in Resources */,
+				432FED701D169B3A00CB66ED /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +312,12 @@
 				432433221D0655B200C33FB2 /* AppDelegate.m in Sources */,
 				4324331F1D0655B200C33FB2 /* main.m in Sources */,
 				433EB8FE1D07A53400A58F8B /* XTSecondVC.m in Sources */,
+				43EED4B01D15288900A18303 /* XTThirdVC.m in Sources */,
+				432FED6A1D164E0E00CB66ED /* XTRightViewItem.m in Sources */,
 				432433411D068C8400C33FB2 /* XTFirstTableView.m in Sources */,
 				433EB90A1D07A5FF00A58F8B /* XTSecondRightTableView.m in Sources */,
+				43EED4B61D15291E00A18303 /* XTThirdRightCollectionView.m in Sources */,
+				43EED4B31D1528DF00A18303 /* XTThirdLeftTableView.m in Sources */,
 				433EB9071D07A5E100A58F8B /* XTSecondLeftTableView.m in Sources */,
 				4324333E1D0673B900C33FB2 /* XTFirstVC.m in Sources */,
 				4324339D1D07179500C33FB2 /* XTMainVC.m in Sources */,
