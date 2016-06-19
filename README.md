@@ -11,6 +11,9 @@ This Demo's main function : there are two tableViews on the left and right,they 
 ######Demo1，Demo2支持的传入数据接口Demo3同样拥有，同时增加传入图片名数组的接口，为item添加所需图片。
 
 
+
+
+
 2016/6/9 完成Demo2.实现点击左侧，右侧滑动更新；滑动右侧，左侧同步刷新的样式。对左右两个tableView的数据传入接口和设置frame接口进行了封装。
 
 2016/6/8 完成了Demo1.他是点击左侧，右侧tableView直接刷新对应数据的形式。对左右两个tableView的数据传入接口和设置frame接口进行了封装。
