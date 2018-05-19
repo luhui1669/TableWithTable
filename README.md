@@ -34,6 +34,5 @@ This Demo's main function : there are two tableViews on the left and right,they 
     //vc.leftFrame = CGRectMake(0, 0, 100, 300);
     //vc.rightFrame = CGRectMake(120, 0, 100, 250);
 
-这不是任务，不是作业，这是梦想。
 =========
 
